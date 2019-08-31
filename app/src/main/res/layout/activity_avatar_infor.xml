@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.InforActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_avatar"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        app:cardCornerRadius="80dp">
+
+        <ImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@color/colorGray"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile_icon"/>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KhoaMoya"
+        android:textColor="@color/colorBlack"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="khoaroya02@gmail.com" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="035 457 6363" />
+</LinearLayout>
